@@ -1,31 +1,31 @@
 #heading{
-    background-color: black; 
-    color: white;
-    height: 70px;
-    width: 1440px;
-    font-size: smaller;
-    justify-content: center;
- }
- .card{
-     display: flex;
-     flex-direction: row;
-     margin: 2px;
-     border: 3px solid black;
-     height: 290px;
-     width: 350px;
-     
- }
- .row{
-     display: flex;
-     flex-direction: row;
+   background-color: black; 
+   color: white;
+   height: 70px;
+   width: 1440px;
+   font-size: smaller;
+   justify-content: center;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    margin: 2px;
+    border: 3px solid black;
+    height: 290px;
+    width: 350px;
     
- }
- 
- .card-title
- {
-     text-align: justify;
- }
- .button{
-     background-color:black;
-     color: white;
- }
+}
+.row{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.card-title
+{
+    text-align: justify;
+}
+.button{
+    background-color:black;
+    color: white;
+}
