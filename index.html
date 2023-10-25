@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Event Page-HTML & CSS- Day -5: HTML & CSS
+    </title>
+</head>
+
+<body>
+    <script src="script1.js"></script>
+    <div class="container">
+        <div class="row" id="heading">
+            <h1>Search Events</h1>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF3A33oMB7DT8ba4OdvIciZzarCQreEEZYRg&usqp=CAU"
+                        class="card-img-top" alt="Event1">
+                    <div class="card-body">
+                        <h5 class="card-title">Event-1</h5><br>
+                        <h5>25<br>Nov-2023</h5><br>
+                        <h5>Seat<br>
+                            Avail:1</h5><br>
+                        <button type="button" ">Enroll
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <img src="data:image/png;base64,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"
+                        class="card-img-top" alt="CSS">
+                    <div class="card-body">
+                        <h5 class="card-title">Event-2</h5><br>
+                        <h5>26<br>Nov-2023</h5><br>
+                        <h5>Seat<br>Avail:9</h5><br>
+                        <button type="button" >Enroll</button>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <img src="data:image/png;base64,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"
+                        class="card-img-top" alt="React">
+                    <div class="card-body">
+                        <h5 class="card-title">Event-3</h5><br>
+                        <h5>27<br>Nov-2023</h5><br>
+                        <h5>Seat<br>Avail:8</h5><br>
+                        <button type="button" >Enroll</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col"><div class="card">
+                <img
+                  src="data:image/png;base64,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"
+                  class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Event-4</h5><br>
+                  <h5>28<br>Nov-2023</h5><br>
+                  <h5>Seat<br>Avail:10</h5><br>
+                  <button type="button" >Enroll</button>
+          
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF3A33oMB7DT8ba4OdvIciZzarCQreEEZYRg&usqp=CAU"
+                        class="card-img-top" alt="Event1">
+                    <div class="card-body">
+                        <h5 class="card-title">Event-6</h5><br>
+                        <h5>1<br>Dec-2023</h5><br>
+                        <h5>Seat<br>
+                            Avail:6</h5><br>
+                        <button type="button" >Enroll
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <img src="data:image/png;base64,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"
+                        class="card-img-top" alt="CSS">
+                    <div class="card-body">
+                        <h5 class="card-title">Event-6</h5><br>
+                        <h5>5<br>Dec-2023</h5><br>
+                        <h5>Seat<br>Avail:9</h5><br>
+                        <button type="button" >Enroll</button>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <img src="data:image/png;base64,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"
+                        class="card-img-top" alt="React">
+                    <div class="card-body">
+                        <h5 class="card-title">Event-3</h5><br>
+                        <h5>27<br>Nov-2023</h5><br>
+                        <h5>Seat<br>Avail:8</h5><br>
+                        <button type="button" >Enroll</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col"><div class="card">
+                <img
+                  src="data:image/png;base64,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"
+                  class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Event-4</h5><br>
+                  <h5>28<br>Nov-2023</h5><br>
+                  <h5>Seat<br>Avail:10</h5><br>
+                  <button type="button">Enroll</button>
+          
+                </div>
+              </div></div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
